@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+header {
+  background: #343a40;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.gallery a img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery a img:hover {
+  transform: scale(1.05);
+}
